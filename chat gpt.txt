@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to ChatGPT Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About ChatGPT</h2>
+      <p>ChatGPT is an advanced language model developed by OpenAI. It is based on the GPT-3.5 architecture and designed for natural language understanding and generation tasks.</p>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Conversational AI capabilities</li>
+        <li>Supports multiple languages</li>
+        <li>Contextual understanding</li>
+        <li>Advanced text generation</li>
+      </ul>
+    </section>
+
+    <section id="demo">
+      <h2>Demo</h2>
+      <div id="chat-container">
+        <div id="chat-log">
+          <div class="chat-message">
+            <span class="user-message">User:</span> Hi, ChatGPT!
+          </div>
+          <div class="chat-message">
+            <span class="assistant-message">ChatGPT:</span> Hello! How can I assist you today?
+          </div>
+        </div>
+        <div id="user-input">
+          <input type="text" id="message-input" placeholder="Type your message here">
+          <button id="send-button">Send</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For any inquiries or feedback, please contact us at <a href="mailto:info@chatgpt.com">info@chatgpt.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 ChatGPT Website. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
